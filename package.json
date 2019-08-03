@@ -1,0 +1,42 @@
+{
+  "name": "vuex-utils-test-jest",
+  "version": "1.0.0",
+  "description": "基于Jest的针对VueX的单元测试demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage  && http-server ./coverage/lcov-report -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brizer/vuex-utils-test-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brizer/vuex-utils-test-jest/issues"
+  },
+  "homepage": "https://github.com/brizer/vuex-utils-test-jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-dynamic-import-node": "^2.3.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.8.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-jest": "^3.0.4",
+    "vue-test-actions": "^1.0.6"
+  },
+  "dependencies": {
+    "lockr": "^0.8.5",
+    "vue": "^2.5.18",
+    "vue-template-compiler": "^2.5.18",
+    "vuex": "^3.0.1"
+  }
+}
